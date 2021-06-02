@@ -1,0 +1,15 @@
+GET http://localhost:8080/ping
+
+###
+# @name echo
+GET http://localhost:8080/echo/23234
+
+
+###
+# @name multiplicar
+POST http://localhost:8080/multiplicar
+
+{
+    "Multiplicando": 15,
+    "Multiplicador": 2.3
+}
